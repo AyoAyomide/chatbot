@@ -1,0 +1,44 @@
+/* page head */
+.head,.inputBox{
+    border: 1px solid grey;
+    height: 3em;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    width: 100%;
+
+}
+/* middle text */
+.text_body{
+    position: absolute;
+    border: 1px solid grey;
+    width: 100%;
+    padding:3em 10px;
+    top:0px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.text_body>span{
+    display: inline-block;
+    width: 100%;
+    margin: 5px;
+}
+.text_body>span>p{
+    border: 1px solid grey;
+    float: left;
+    padding: 5px;
+    border-radius:5px;
+    animation-name: flowL;
+    animation-duration:0.6s;
+}
+.text_body>span>.itRight{
+    float: right;
+    animation-name: flowR;
+}
+/* input style */
+.inputBox{
+    bottom: 0px;
+    top:auto;
+    border-color: red;
+}
