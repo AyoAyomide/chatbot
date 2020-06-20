@@ -12,6 +12,7 @@
 
  function chat(input) {
    valid = input.trim().length;
+   input = input.toLowerCase();
    found = false;
    cmdVal = Object.values(cmd);
    respVal = Object.values(resp);
@@ -23,14 +24,13 @@
    });
    if (!found || !valid) {
      reply = "i don't understand";
-   } else {
-     span = make("span");
+   } 
+   span = make("span");
      p = make("p");
      p.innerText = input;
      put(span, p);
      put(grab("text_body"), span);
      addClass([p], ["itRight"]);
-   }
    setTimeout(() => {
      span = make("span");
      p = make("p");
@@ -43,5 +43,6 @@
  }
  pacth_addEV(grab("send"), "click", () => {
    chat(grab("input").value);
+   grab("input").value = "";
  });
  // do not touch me am the login --end
