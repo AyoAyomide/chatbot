@@ -1,4 +1,14 @@
 {
     "cmd1": ["hello", "hi"],
-    "cmd2": ["sup", "hey"]
+    "cmd2": ["sup", "hey"],
+    "cmd3": ["what is HNGi about?", "what does HNGi entail?"],
+    "cmd4": ["when does the internship begin?", "when does it start?"],
+    "cmd5": ["what are the benefits?", "what do i stand to gain?"],
+    "cmd6": ["whats the duration of the internship?", "how long does it last?"],
+    "cmd7": ["can a beginner with little or no prior knowledge join the internship?", "does a beginner stand a chance at the internship?"],
+    "cmd8": [ "will certificates be awarded? "],
+    "cmd9": ["what do i stand to gain or get after the internship, will i be employed?"],
+    "cmd10": ["will i be assigned a mentor?", "do i get a personal mentor?"],
+    "cmd11": ["how often are projects built?", "do i build project often?"],
+    "cmd12": ["will mentors be available for physical meetups?", "can i meet with a mentor physically?"]
 }
