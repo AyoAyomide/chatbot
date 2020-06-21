@@ -6,6 +6,7 @@
     left: 0px;
     width: 100%;
     background-color: #3184FF;
+zindez:2;
 }
 .head>h2,.head>p{
     color: white;
@@ -19,6 +20,7 @@
     height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
+zindex:1;
 }
 .text_body>span{
     display: inline-block;
